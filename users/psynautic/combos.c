@@ -1,10 +1,10 @@
+#include "psynautic.h"
+
 #ifdef COMBO_ENABLE
 
-enum combo_events {
-  SS_SNIP,
-};
+enum combo_events {SS_SNIP};
 
-const uint16_t PROGMEM snip_combo[] = {KC_E, KC_Q, COMBO_END};
+const uint16_t PROGMEM snip_combo[] = {KC_LSHIFT, KC_LCTRL, KC_4, COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
   [SS_SNIP] = COMBO_ACTION(snip_combo),

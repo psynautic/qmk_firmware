@@ -8,10 +8,3 @@
 //#define RGB_MATRIX_STARTUP_HUE 211
 
 #define RGBLIGHT_ANIMATIONS             // Enable all additional animation modes.
-
-#ifdef COMBO_ENABLE
-    #undef COMBO_COUNT
-    #undef COMBO_TERM
-    #define COMBO_COUNT 1
-    #define COMBO_TERM 60
-#endif
